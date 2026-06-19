@@ -72,23 +72,67 @@ lessonsLearned: [
 ]
 }
 ,
-  {
-    slug: "student-management-system",
-    number: "02",
-    name: "Student Management System",
-    category: "C++ / OOP",
-    problem: "Managing student records manually becomes difficult and error-prone as data grows.",
-    solution:
-      "Developed a C++ application using Object-Oriented Programming concepts and file handling to store, update, and manage student information.",
-    tech: ["C++", "OOP", "File Handling"],
-    github: "https://github.com/ParthChittalwar",
-    status: "completed",
-    // timeline: "",
-    // features: [],
-    // challenges: [],
-    // image: "student-management.png",
-    // images: [],
-  },
+{
+slug: "advanced-workforce-management-system",
+number: "02",
+name: "Advanced Workforce Management System",
+category: "Business Management Platform",
+
+problem:
+"Managing employees, assigning tasks, tracking progress, and monitoring workforce productivity becomes increasingly complex as organizations grow. Traditional manual processes often lead to inefficiencies, poor visibility, and administrative overhead.",
+
+solution:
+"Built a workforce management platform with admin and employee dashboards, task management, authentication, and progress tracking using React and TypeScript.",
+
+tech: [
+"React",
+"TypeScript",
+"Tailwind CSS",
+"Framer Motion",
+"React Router",
+
+],
+
+github:
+"https://github.com/ParthChittalwar/Advanced-Workforce-Management-System",
+
+live:
+"https://advanced-workforce-management-system.pages.dev/",
+
+status: "completed",
+
+timeline: "June 2026",
+
+features: [
+"Admin Dashboard",
+"Employee Dashboard",
+"Employee Management",
+"Task Assignment System",
+"Task Progress Tracking",
+"Authentication System",
+"Protected Routes",
+"Responsive Design",
+"State Management with Zustand",
+"Modern UI Architecture"
+],
+
+challenges: [
+"Designing a scalable application architecture",
+"Managing shared application state across dashboards",
+"Implementing route protection and access control",
+"Building responsive interfaces across devices",
+"Creating reusable and maintainable components"
+],
+
+lessonsLearned: [
+"TypeScript integration in React applications",
+"State management using Zustand",
+"Protected routing and authentication workflows",
+"Component architecture and reusability",
+"Scalable frontend application development"
+]
+}
+,
   {
     slug: "responsive-web-interfaces",
     number: "03",

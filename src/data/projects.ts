@@ -24,24 +24,54 @@ import type { Project } from "@/types";
  */
 export const projects: Project[] = [
   {
-    slug: "personal-portfolio-website",
-    number: "01",
-    name: "Personal Portfolio Website",
-    category: "Web Development",
-    problem:
-      "Needed a professional platform to showcase my skills, projects, and learning journey.",
-    solution:
-      "Built a modern portfolio website using React and modern frontend technologies with a focus on responsiveness, clean design, and user experience.",
-    tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/ParthChittalwar",
-    status: "in-progress",
-    timeline: "2026 – Present",
-    // features: [],
-    // challenges: [],
-    // image: "portfolio.png",
-    // images: [],
-    // ogImage: "portfolio-og.png",
-  },
+slug: "portfolio-v4",
+number: "01",
+name: "Personal Portfolio Website",
+category: "Frontend Development",
+problem:
+"Needed a modern platform to showcase my skills, projects, certifications, and development journey while maintaining strong performance, accessibility, and responsiveness across devices.",
+solution:
+"Designed and developed a production-ready portfolio using React, TypeScript, Tailwind CSS, Framer Motion, and React Three Fiber.",
+tech: [
+"React",
+"TypeScript",
+"Tailwind CSS",
+"Framer Motion",
+"React Three Fiber",
+],
+github: "https://github.com/ParthChittalwar/Portfolio",
+live: "https://portfolio-5yf.pages.dev/",
+status: "completed",
+timeline: "Jun 2026",
+
+features: [
+"Interactive 3D Hero Section",
+"Command Palette (Ctrl + K)",
+"Project Search and Filtering",
+"Dynamic Project Detail Pages",
+"Resume Preview and Download",
+"Dark and Light Theme Support",
+"Responsive Design",
+"SEO Optimization",
+"Accessibility Enhancements"
+],
+
+challenges: [
+"Optimizing Three.js performance for different devices",
+"Creating responsive layouts across screen sizes",
+"Balancing animations with performance",
+"Designing a scalable data-driven content architecture"
+],
+
+lessonsLearned: [
+"Advanced React component architecture",
+"Performance optimization techniques",
+"Modern frontend project organization",
+"Accessibility and SEO best practices",
+"Integrating React Three Fiber into production applications"
+]
+}
+,
   {
     slug: "student-management-system",
     number: "02",

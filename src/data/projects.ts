@@ -134,22 +134,69 @@ lessonsLearned: [
 }
 ,
   {
-    slug: "responsive-web-interfaces",
-    number: "03",
-    name: "Responsive Web Interfaces",
-    category: "Frontend",
-    problem: "Web applications should work consistently across devices and screen sizes.",
-    solution:
-      "Created responsive frontend interfaces using HTML, CSS, and JavaScript while focusing on usability, accessibility, and clean layouts.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/ParthChittalwar",
-    status: "completed",
-    // timeline: "",
-    // features: [],
-    // challenges: [],
-    // image: "responsive-ui.png",
-    // images: [],
-  },
+  slug: "democratic-bharat-v2",
+  number: "03",
+  name: "Democratic Bharat V2.0",
+  category: "Civic Technology Platform",
+
+  problem:
+    "Many citizens, first-time voters, and rural communities lack access to clear and engaging resources that explain India's electoral process, EVM technology, voting procedures, and democratic participation. Existing information is often fragmented, difficult to understand, or presented in a non-interactive format.",
+
+  solution:
+    "Developed a comprehensive civic education platform designed to simplify India's electoral system through interactive simulations, multilingual support, realistic EVM and VVPAT demonstrations, election workflow visualizations, myth-busting modules, and educational content focused on democratic literacy and voter awareness.",
+
+  tech: [
+    "React",
+    "i18next",
+    "Lucide React",
+    "Framer Motion",
+    "React Router"
+  ],
+
+  github: "https://github.com/ParthChittalwar/Democratic-Bharat",
+
+  live: "https://democratic-bharat-voting-awareness-platform.pages.dev/",
+
+  status: "completed",
+
+  timeline: "2026",
+
+  features: [
+    "Interactive EVM Simulation",
+    "VVPAT Demonstration",
+    "Multi-Language Support",
+    "Election Type Explorer",
+    "Polling Booth Simulation",
+    "Voting Process Visualizations",
+    "Myths vs Facts Knowledge Center",
+    "Election Timeline Explorer",
+    "Strong Room Security Simulation",
+    "Voting Awareness Modules",
+    "Democracy Education Content",
+    "Accessibility Features",
+    "Civic Awareness Quiz System",
+    "Mobile Responsive Design"
+  ],
+
+  challenges: [
+    "Simplifying complex electoral concepts for non-technical users",
+    "Designing realistic EVM workflows while maintaining educational clarity",
+    "Creating multilingual content architecture",
+    "Balancing visual engagement with factual accuracy",
+    "Building accessible experiences for diverse audiences",
+    "Presenting politically neutral educational content"
+  ],
+
+  lessonsLearned: [
+    "Educational product design",
+    "Information architecture for complex systems",
+    "Multilingual application structure",
+    "Interactive visualization techniques",
+    "Accessibility-first development",
+    "Civic technology and public awareness design",
+    "Building scalable React and TypeScript applications"
+  ]
+},
 ];
 
 /** Look up a project by its slug — used by the ProjectDetail page. */

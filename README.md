@@ -128,6 +128,7 @@ Previous portfolio iterations are preserved separately:
 * Portfolio V2.0.2
 * Portfolio V3 Phase 1
 * Portfolio V3 Phase 2
+* Portfolio V4 (Curent)
 
 Each version represents a milestone in the evolution of my portfolio's design, architecture, and development journey.
 

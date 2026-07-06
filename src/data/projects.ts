@@ -195,8 +195,86 @@ lessonsLearned: [
     "Accessibility-first development",
     "Civic technology and public awareness design",
     "Building scalable React and TypeScript applications"
+  ],
+
+},
+
+{
+  slug: "sketchboard-pro",
+  number: "04",
+  name: "SketchBoard Pro",
+  category: "Productivity & Collaboration Platform",
+
+  problem:
+    "Most online whiteboard platforms are either expensive, overloaded with unnecessary features, or require constant internet connectivity. Educators, students, developers, and teams need a fast, lightweight, open-source whiteboard that supports drawing, presentations, note-taking, brainstorming, and future AI-powered workflows.",
+
+  solution:
+    "Built SketchBoard Pro, a modern infinite whiteboard application featuring rich drawing tools, presentation utilities, offline capabilities, export options, and an extensible architecture designed for optional AI-powered productivity features.",
+
+  tech: [
+    "TypeScript",
+    "HTML5 Canvas",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Canvas API",
+    "TanStack Router"
+  ],
+
+  github: "https://github.com/ParthChittalwar/SketchBoard-Pro",
+
+  live: "https://sketchboard-pro.pages.dev/",
+
+  status: "completed",
+
+  timeline: "July 2026",
+
+  features: [
+    "Infinite Canvas",
+    "Multi-page Whiteboards",
+    "Layers",
+    "Undo & Redo",
+    "Zoom & Pan",
+    "Grid & Snap to Grid",
+    "Selection Tools",
+    "Shapes, Text & Sticky Notes",
+    "Image & SVG Support",
+    "PDF Import",
+    "PNG, JPG, SVG & PDF Export",
+    "Presentation Mode",
+    "Laser Pointer & Spotlight",
+    "Graph Paper & Coordinate Grid",
+    "White & Chalkboard Themes",
+    "Timer & Stopwatch",
+    "Classroom Templates",
+    "Autosave",
+    "Offline Support",
+    "Keyboard Shortcuts",
+    "Dark Mode",
+    "Responsive Design",
+    "AI-Ready Architecture",
+    "OCR & Diagram Generation (Planned)"
+  ],
+
+  challenges: [
+    "Designing an infinitely scalable canvas without sacrificing performance",
+    "Managing complex drawing state and interaction workflows",
+    "Building responsive controls for desktop and tablet users",
+    "Creating a modular architecture for future AI integrations",
+    "Supporting multiple export formats efficiently",
+    "Maintaining smooth rendering with large whiteboard content"
+  ],
+
+  lessonsLearned: [
+    "Canvas API fundamentals and rendering optimization",
+    "Large-scale React application architecture",
+    "State management for complex interactive interfaces",
+    "Performance optimization for graphics-intensive applications",
+    "Designing extensible feature-driven frontend systems",
+    "Building production-ready developer tooling with Vite and TypeScript",
+    "Creating scalable foundations for future AI-powered features"
   ]
 },
+
 ];
 
 /** Look up a project by its slug — used by the ProjectDetail page. */

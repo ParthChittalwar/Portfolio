@@ -153,9 +153,9 @@ lessonsLearned: [
     "React Router"
   ],
 
-  github: "https://github.com/ParthChittalwar/Democratic-Bharat",
+  github: "https://github.com/ParthChittalwar/Advanced-Indian-EVM-Simulator-",
 
-  live: "https://democratic-bharat-voting-awareness-platform.pages.dev/",
+  live: "https://advanced-indian-evm-simulator.pages.dev/",
 
   status: "completed",
 

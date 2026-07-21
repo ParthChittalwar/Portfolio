@@ -31,7 +31,7 @@ category: "Frontend Development",
 problem:
 "Needed a modern platform to showcase my skills, projects, certifications, and development journey while maintaining strong performance, accessibility, and responsiveness across devices.",
 solution:
-"Designed and developed a production-ready portfolio using React, TypeScript, Tailwind CSS, Framer Motion, and React Three Fiber.",
+"Designed and developed a production-ready portfolio using React, TypeScript, Tailwind CSS, Framer Motion, and React Three Fiber, incorporating advanced UI animations, interactive 3D elements, command palette navigation, dynamic content management, responsive design, and modern frontend best practices.",
 tech: [
 "React",
 "TypeScript",
@@ -73,8 +73,231 @@ lessonsLearned: [
 }
 ,
 {
+  slug: "sketchboard-pro",
+  number: "02",
+  name: "SketchBoard Pro",
+  category: "Productivity & Collaboration Platform",
+
+  problem:
+    "Most online whiteboard platforms are either expensive, overloaded with unnecessary features, or require constant internet connectivity. Educators, students, developers, and teams need a fast, lightweight, open-source whiteboard that supports drawing, presentations, note-taking, brainstorming, and future AI-powered workflows.",
+
+  solution:
+    "Built SketchBoard Pro, a modern infinite whiteboard application featuring rich drawing tools, presentation utilities, offline capabilities, export options, and an extensible architecture designed for optional AI-powered productivity features.",
+
+  tech: [
+    "TypeScript",
+    "HTML5 Canvas",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Canvas API",
+    "TanStack Router",
+    "File API",
+   "PDF.js",
+  "IndexedDB",
+  "Local Storage",
+  ],
+
+  github: "https://github.com/ParthChittalwar/SketchBoard-Pro",
+
+  live: "https://sketchboard-pro.pages.dev/",
+
+  status: "completed",
+
+  timeline: "July 2026",
+
+  features: [
+    "Infinite Canvas",
+    "Multi-page Whiteboards",
+    "Layers",
+    "Undo & Redo",
+    "Zoom & Pan",
+    "Grid & Snap to Grid",
+    "Selection Tools",
+    "Shapes, Text & Sticky Notes",
+    "Image & SVG Support",
+    "PDF Import",
+    "PNG, JPG, SVG & PDF Export",
+    "Presentation Mode",
+    "Laser Pointer & Spotlight",
+    "Graph Paper & Coordinate Grid",
+    "White & Chalkboard Themes",
+    "Timer & Stopwatch",
+    "Classroom Templates",
+    "Autosave",
+    "Offline Support",
+    "Keyboard Shortcuts",
+    "Dark Mode",
+    "Responsive Design",
+    "AI-Ready Architecture",
+    "OCR & Diagram Generation (Planned)"
+  ],
+
+  challenges: [
+    "Designing an infinitely scalable canvas without sacrificing performance",
+    "Managing complex drawing state and interaction workflows",
+    "Building responsive controls for desktop and tablet users",
+    "Creating a modular architecture for future AI integrations",
+    "Supporting multiple export formats efficiently",
+    "Maintaining smooth rendering with large whiteboard content"
+  ],
+
+  lessonsLearned: [
+    "Canvas API fundamentals and rendering optimization",
+    "Large-scale React application architecture",
+    "State management for complex interactive interfaces",
+    "Performance optimization for graphics-intensive applications",
+    "Designing extensible feature-driven frontend systems",
+    "Building production-ready developer tooling with Vite and TypeScript",
+    "Creating scalable foundations for future AI-powered features"
+  ]
+}
+,
+{
+  slug: "novaos-operating-system",
+
+  number: "03",
+
+  name: "NovaOS Operating System",
+
+  category: "Systems Programming & Operating Systems",
+
+  problem:
+    "Understanding operating system internals requires hands-on implementation rather than theoretical study. Existing educational projects often hide low-level concepts behind abstractions, making it difficult to explore memory management, interrupt handling, scheduling, and kernel architecture from first principles.",
+
+  solution:
+    "Developed NovaOS, a modular 64-bit operating system from scratch using C++20 and NASM Assembly. The kernel boots through the Limine boot protocol, implements memory management, interrupt handling, multitasking, a virtual file system, device drivers, and an interactive shell running on bare-metal through QEMU.",
+
+  tech: [
+    "C++20",
+    "NASM Assembly",
+    "UEFI",
+    "Limine Boot Protocol",
+    "x86_64",
+    "QEMU",
+    "CMake",
+    "Ninja"
+  ],
+
+  github:
+    "https://github.com/ParthChittalwar/NovaOS-Operating-System",
+
+  live: "",
+
+  status: "completed",
+
+  timeline: "July 2026",
+
+  features: [
+    "64-bit Higher-Half Kernel",
+    "UEFI Boot using Limine",
+    "GDT, IDT & TSS Implementation",
+    "Exception & Interrupt Handling",
+    "Kernel Panic Screen",
+    "Bitmap Physical Memory Manager",
+    "Kernel Heap Allocator",
+    "8259 PIC Driver",
+    "PIT Timer Driver",
+    "PS/2 Keyboard Driver",
+    "Framebuffer Console",
+    "Preemptive Round-Robin Scheduler",
+    "Context Switching",
+    "Virtual File System (RAM Disk)",
+    "Interactive Kernel Shell",
+    "Bare-Metal Execution in QEMU"
+  ],
+
+  challenges: [
+    "Understanding x86_64 architecture and CPU initialization",
+    "Implementing interrupt and exception handling safely",
+    "Managing physical memory without an operating system",
+    "Building a custom kernel heap allocator",
+    "Implementing multitasking using assembly context switching",
+    "Debugging low-level kernel crashes with limited tooling",
+    "Maintaining a modular kernel architecture"
+  ],
+
+  lessonsLearned: [
+    "Operating system architecture fundamentals",
+    "Low-level C++ systems programming",
+    "x86_64 CPU initialization and memory management",
+    "Assembly language integration with C++",
+    "Interrupt-driven kernel development",
+    "Process scheduling concepts",
+    "Kernel debugging and systems programming best practices",
+    "Bootloader and UEFI firmware workflow"
+  ]
+},
+  {
+  slug: "democratic-bharat-v2",
+  number: "04",
+  name: "Democratic Bharat V2.0",
+  category: "Civic Technology Platform",
+
+  problem:
+    "Many citizens, first-time voters, and rural communities lack access to clear and engaging resources that explain India's electoral process, EVM technology, voting procedures, and democratic participation. Existing information is often fragmented, difficult to understand, or presented in a non-interactive format.",
+
+  solution:
+    "Developed a comprehensive civic education platform designed to simplify India's electoral system through interactive simulations, multilingual support, realistic EVM and VVPAT demonstrations, election workflow visualizations, myth-busting modules, and educational content focused on democratic literacy and voter awareness.",
+
+  tech: [
+    "React",
+    "i18next",
+    "Lucide React",
+    "Framer Motion",
+    "React Router",
+    "Responsive Design",
+  "Accessibility (WCAG)"
+  ],
+
+  github: "https://github.com/ParthChittalwar/Advanced-Indian-EVM-Simulator-",
+
+  live: "https://advanced-indian-evm-simulator.pages.dev/",
+
+  status: "completed",
+
+  timeline: "2026",
+
+  features: [
+    "Interactive EVM Simulation",
+    "VVPAT Demonstration",
+    "Multi-Language Support",
+    "Election Type Explorer",
+    "Polling Booth Simulation",
+    "Voting Process Visualizations",
+    "Myths vs Facts Knowledge Center",
+    "Election Timeline Explorer",
+    "Strong Room Security Simulation",
+    "Voting Awareness Modules",
+    "Democracy Education Content",
+    "Accessibility Features",
+    "Civic Awareness Quiz System",
+    "Mobile Responsive Design"
+  ],
+
+  challenges: [
+    "Simplifying complex electoral concepts for non-technical users",
+    "Designing realistic EVM workflows while maintaining educational clarity",
+    "Creating multilingual content architecture",
+    "Balancing visual engagement with factual accuracy",
+    "Building accessible experiences for diverse audiences",
+    "Presenting politically neutral educational content"
+  ],
+
+  lessonsLearned: [
+    "Educational product design",
+    "Information architecture for complex systems",
+    "Multilingual application structure",
+    "Interactive visualization techniques",
+    "Accessibility-first development",
+    "Civic technology and public awareness design",
+    "Building scalable React and TypeScript applications"
+  ],
+
+},
+
+{
 slug: "advanced-workforce-management-system",
-number: "02",
+number: "05",
 name: "Advanced Workforce Management System",
 category: "Business Management Platform",
 
@@ -132,148 +355,6 @@ lessonsLearned: [
 "Scalable frontend application development"
 ]
 }
-,
-  {
-  slug: "democratic-bharat-v2",
-  number: "03",
-  name: "Democratic Bharat V2.0",
-  category: "Civic Technology Platform",
-
-  problem:
-    "Many citizens, first-time voters, and rural communities lack access to clear and engaging resources that explain India's electoral process, EVM technology, voting procedures, and democratic participation. Existing information is often fragmented, difficult to understand, or presented in a non-interactive format.",
-
-  solution:
-    "Developed a comprehensive civic education platform designed to simplify India's electoral system through interactive simulations, multilingual support, realistic EVM and VVPAT demonstrations, election workflow visualizations, myth-busting modules, and educational content focused on democratic literacy and voter awareness.",
-
-  tech: [
-    "React",
-    "i18next",
-    "Lucide React",
-    "Framer Motion",
-    "React Router"
-  ],
-
-  github: "https://github.com/ParthChittalwar/Advanced-Indian-EVM-Simulator-",
-
-  live: "https://advanced-indian-evm-simulator.pages.dev/",
-
-  status: "completed",
-
-  timeline: "2026",
-
-  features: [
-    "Interactive EVM Simulation",
-    "VVPAT Demonstration",
-    "Multi-Language Support",
-    "Election Type Explorer",
-    "Polling Booth Simulation",
-    "Voting Process Visualizations",
-    "Myths vs Facts Knowledge Center",
-    "Election Timeline Explorer",
-    "Strong Room Security Simulation",
-    "Voting Awareness Modules",
-    "Democracy Education Content",
-    "Accessibility Features",
-    "Civic Awareness Quiz System",
-    "Mobile Responsive Design"
-  ],
-
-  challenges: [
-    "Simplifying complex electoral concepts for non-technical users",
-    "Designing realistic EVM workflows while maintaining educational clarity",
-    "Creating multilingual content architecture",
-    "Balancing visual engagement with factual accuracy",
-    "Building accessible experiences for diverse audiences",
-    "Presenting politically neutral educational content"
-  ],
-
-  lessonsLearned: [
-    "Educational product design",
-    "Information architecture for complex systems",
-    "Multilingual application structure",
-    "Interactive visualization techniques",
-    "Accessibility-first development",
-    "Civic technology and public awareness design",
-    "Building scalable React and TypeScript applications"
-  ],
-
-},
-
-{
-  slug: "sketchboard-pro",
-  number: "04",
-  name: "SketchBoard Pro",
-  category: "Productivity & Collaboration Platform",
-
-  problem:
-    "Most online whiteboard platforms are either expensive, overloaded with unnecessary features, or require constant internet connectivity. Educators, students, developers, and teams need a fast, lightweight, open-source whiteboard that supports drawing, presentations, note-taking, brainstorming, and future AI-powered workflows.",
-
-  solution:
-    "Built SketchBoard Pro, a modern infinite whiteboard application featuring rich drawing tools, presentation utilities, offline capabilities, export options, and an extensible architecture designed for optional AI-powered productivity features.",
-
-  tech: [
-    "TypeScript",
-    "HTML5 Canvas",
-    "Tailwind CSS",
-    "Framer Motion",
-    "Canvas API",
-    "TanStack Router"
-  ],
-
-  github: "https://github.com/ParthChittalwar/SketchBoard-Pro",
-
-  live: "https://sketchboard-pro.pages.dev/",
-
-  status: "completed",
-
-  timeline: "July 2026",
-
-  features: [
-    "Infinite Canvas",
-    "Multi-page Whiteboards",
-    "Layers",
-    "Undo & Redo",
-    "Zoom & Pan",
-    "Grid & Snap to Grid",
-    "Selection Tools",
-    "Shapes, Text & Sticky Notes",
-    "Image & SVG Support",
-    "PDF Import",
-    "PNG, JPG, SVG & PDF Export",
-    "Presentation Mode",
-    "Laser Pointer & Spotlight",
-    "Graph Paper & Coordinate Grid",
-    "White & Chalkboard Themes",
-    "Timer & Stopwatch",
-    "Classroom Templates",
-    "Autosave",
-    "Offline Support",
-    "Keyboard Shortcuts",
-    "Dark Mode",
-    "Responsive Design",
-    "AI-Ready Architecture",
-    "OCR & Diagram Generation (Planned)"
-  ],
-
-  challenges: [
-    "Designing an infinitely scalable canvas without sacrificing performance",
-    "Managing complex drawing state and interaction workflows",
-    "Building responsive controls for desktop and tablet users",
-    "Creating a modular architecture for future AI integrations",
-    "Supporting multiple export formats efficiently",
-    "Maintaining smooth rendering with large whiteboard content"
-  ],
-
-  lessonsLearned: [
-    "Canvas API fundamentals and rendering optimization",
-    "Large-scale React application architecture",
-    "State management for complex interactive interfaces",
-    "Performance optimization for graphics-intensive applications",
-    "Designing extensible feature-driven frontend systems",
-    "Building production-ready developer tooling with Vite and TypeScript",
-    "Creating scalable foundations for future AI-powered features"
-  ]
-},
 
 ];
 

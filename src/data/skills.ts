@@ -11,7 +11,7 @@ export const skillGroups: SkillGroup[] = [
   {
     id: "01",
     label: "Languages",
-    items: ["C", "C++", "JavaScript"],
+    items: ["C", "C++", "JavaScript","TypeScript"],
   },
   {
     id: "02",
@@ -21,7 +21,7 @@ export const skillGroups: SkillGroup[] = [
   {
     id: "03",
     label: "Backend",
-    items: ["Node.js", "Express.js"],
+    items: ["Node.js", "Express.js","Postman"],
   },
   {
     id: "04",

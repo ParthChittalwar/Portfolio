@@ -38,7 +38,7 @@ export const site: SiteConfig = {
     { value: "9.17", label: "CGPA", description: "Priyadarshini College" },
     { value: "2028", label: "B.Tech", description: "Expected graduation" },
     { value: "4+", label: "Core CS", description: "Subjects mastered" },
-    { value: "3+", label: "Languages", description: "C · C++ · JavaScript" },
+    { value: "4+", label: "Languages", description: "C · C++ · JavaScript · TypeScript" },
   ],
 
   seo: {

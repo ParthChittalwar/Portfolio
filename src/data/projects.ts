@@ -200,7 +200,6 @@ lessonsLearned: [
     "PS/2 Keyboard Driver",
     "Framebuffer Console",
     "Preemptive Round-Robin Scheduler",
-    "Context Switching",
     "Virtual File System (RAM Disk)",
     "Interactive Kernel Shell",
     "Bare-Metal Execution in QEMU"

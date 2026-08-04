@@ -296,65 +296,83 @@ lessonsLearned: [
 },
 
 {
-slug: "advanced-workforce-management-system",
-number: "05",
-name: "Advanced Workforce Management System",
-category: "Business Management Platform",
+  slug: "ai-interview-preparation-platform",
 
-problem:
-"Managing employees, assigning tasks, tracking progress, and monitoring workforce productivity becomes increasingly complex as organizations grow. Traditional manual processes often lead to inefficiencies, poor visibility, and administrative overhead.",
+  number: "05",
 
-solution:
-"Built a workforce management platform with admin and employee dashboards, task management, authentication, and progress tracking using React and TypeScript.",
+  name: "AI Interview Preparation Platform",
 
-tech: [
-"React",
-"TypeScript",
-"Tailwind CSS",
-"Framer Motion",
-"React Router",
+  category: "Full Stack AI SaaS Platform",
 
-],
+  problem:
+    "Job seekers often struggle to prepare for interviews because generic interview questions fail to match their resume, target role, and required skills. They need a personalized interview preparation system that generates technical questions, behavioral questions, skill-gap analysis, preparation roadmaps, and downloadable interview reports.",
 
-github:
-"https://github.com/ParthChittalwar/Advanced-Workforce-Management-System",
+  solution:
+    "Developed a full-stack AI Interview Preparation Platform that analyzes a user's resume and target job description using Google Gemini AI to generate personalized interview reports, technical and behavioral questions, skill-gap analysis, match score, preparation roadmap, and downloadable PDF reports. The platform features secure authentication, cloud deployment, and a responsive modern user interface.",
 
-live:
-"https://advanced-workforce-management-system.pages.dev/",
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB Atlas",
+    "Mongoose",
+    "JWT",
+    "Axios",
+    "Google Gemini AI",
+    "Puppeteer",
+    "Render"
+  ],
 
-status: "completed",
+  github:
+    "https://github.com/ParthChittalwar/Interview-Intelligence",
 
-timeline: "June 2026",
+  live:
+    "https://interview-intelligence-8l7z.onrender.com/login",
 
-features: [
-"Admin Dashboard",
-"Employee Dashboard",
-"Employee Management",
-"Task Assignment System",
-"Task Progress Tracking",
-"Authentication System",
-"Protected Routes",
-"Responsive Design",
-"State Management with Zustand",
-"Modern UI Architecture"
-],
+  status: "completed",
 
-challenges: [
-"Designing a scalable application architecture",
-"Managing shared application state across dashboards",
-"Implementing route protection and access control",
-"Building responsive interfaces across devices",
-"Creating reusable and maintainable components"
-],
+  timeline: "August 2026",
 
-lessonsLearned: [
-"TypeScript integration in React applications",
-"State management using Zustand",
-"Protected routing and authentication workflows",
-"Component architecture and reusability",
-"Scalable frontend application development"
-]
+  features: [
+    "JWT Authentication using HTTP-only Cookies",
+    "User Registration & Login",
+    "Resume Upload (PDF/DOCX)",
+    "AI-Powered Interview Report Generation",
+    "Personalized Technical Questions",
+    "Behavioral Interview Questions",
+    "Skill Gap Analysis",
+    "AI Match Score",
+    "Personalized Preparation Roadmap",
+    "Interview History Dashboard",
+    "Protected Routes",
+    "Resume PDF Generation",
+    "Responsive Design",
+    "Render Cloud Deployment"
+  ],
+
+  challenges: [
+    "Integrating Google Gemini AI for structured interview generation",
+    "Parsing uploaded resumes and extracting useful information",
+    "Managing authentication securely using HTTP-only cookies",
+    "Generating downloadable PDF reports using Puppeteer",
+    "Handling asynchronous AI requests and long-running operations",
+    "Deploying a full-stack MERN application with MongoDB Atlas on Render"
+  ],
+
+  lessonsLearned: [
+    "Building production-ready MERN applications",
+    "REST API architecture with Express.js",
+    "JWT authentication and secure cookie handling",
+    "MongoDB schema design using Mongoose",
+    "Integrating Large Language Models into web applications",
+    "Generating PDFs using Puppeteer",
+    "Deploying frontend and backend services on Render",
+    "Managing environment variables for production deployments"
+  ]
 }
+
 
 ];
 

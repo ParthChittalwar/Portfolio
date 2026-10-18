@@ -24,57 +24,129 @@ import type { Project } from "@/types";
  */
 export const projects: Project[] = [
   {
-slug: "portfolio-v4",
-number: "01",
-name: "Personal Portfolio Website",
-category: "Frontend Development",
-problem:
-"Needed a modern platform to showcase my skills, projects, certifications, and development journey while maintaining strong performance, accessibility, and responsiveness across devices.",
-solution:
-"Designed and developed a production-ready portfolio using React, TypeScript, Tailwind CSS, Framer Motion, and React Three Fiber, incorporating advanced UI animations, interactive 3D elements, command palette navigation, dynamic content management, responsive design, and modern frontend best practices.",
-tech: [
-"React",
-"TypeScript",
-"Tailwind CSS",
-"Framer Motion",
-"React Three Fiber",
-],
-github: "https://github.com/ParthChittalwar/Portfolio",
-live: "https://portfolio-5yf.pages.dev/",
-status: "completed",
-timeline: "Jun 2026",
+  slug: "climateshield",
+  number: "01",
+  name: "ClimateShield",
+  category: "Climate-Tech & Decision Support",
+  problem:
+    "Climate adaptation decisions involve uncertain outcomes, limited budgets, and competing priorities such as cost, flood protection, heat protection, and recovery speed. Comparing a few hand-picked interventions can miss better feasible combinations.",
+  solution:
+    "Built ClimateShield as a hackathon decision-support simulator that generates every budget-feasible combination of climate interventions, evaluates strategies through seeded Monte Carlo uncertainty analysis, and ranks options using transparent multi-objective scoring. It compares recommendations against a baseline and includes sensitivity analysis, with reproducible results and optional experiment history.",
+  tech: [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Monte Carlo Simulation",
+    "Optimization"
+  ],
+  github: "https://github.com/ParthChittalwar/CF26-E03-AbsoluteZeros",
+  live: "",
+  status: "completed",
+  timeline: "CODEFORGE 2026 Hackathon",
+  features: [
+    "Five Configurable Climate Scenarios",
+    "Budget-Constrained Intervention Combinations",
+    "Seeded Monte Carlo Simulation",
+    "Transparent Multi-Objective Strategy Ranking",
+    "Baseline vs. Recommended Strategy Comparison",
+    "Sensitivity Analysis",
+    "Reproducible Results and Optional Experiment History"
+  ],
+  challenges: [
+    "Comparing strategies fairly under shared uncertainty",
+    "Generating all feasible intervention combinations within budget",
+    "Making decision scores transparent across competing objectives",
+    "Keeping results reproducible through seeded randomness"
+  ],
+  lessonsLearned: [
+    "Monte Carlo simulation and uncertainty analysis",
+    "Multi-objective decision scoring",
+    "Deterministic simulation design",
+    "Building a decision-support workflow across frontend and backend"
+  ]
+},
+  {
+  slug: "interview-intelligence",
 
-features: [
-"Interactive 3D Hero Section",
-"Command Palette (Ctrl + K)",
-"Project Search and Filtering",
-"Dynamic Project Detail Pages",
-"Resume Preview and Download",
-"Dark and Light Theme Support",
-"Responsive Design",
-"SEO Optimization",
-"Accessibility Enhancements"
-],
-
-challenges: [
-"Optimizing Three.js performance for different devices",
-"Creating responsive layouts across screen sizes",
-"Balancing animations with performance",
-"Designing a scalable data-driven content architecture"
-],
-
-lessonsLearned: [
-"Advanced React component architecture",
-"Performance optimization techniques",
-"Modern frontend project organization",
-"Accessibility and SEO best practices",
-"Integrating React Three Fiber into production applications"
-]
-}
-,
-{
-  slug: "sketchboard-pro",
   number: "02",
+
+  name: "Interview Intelligence",
+
+  category: "Full Stack AI SaaS Platform",
+
+  problem:
+    "Job seekers often struggle to prepare for interviews because generic interview questions fail to match their resume, target role, and required skills. They need a personalized interview preparation system that generates technical questions, behavioral questions, skill-gap analysis, preparation roadmaps, and downloadable interview reports.",
+
+  solution:
+    "Developed a full-stack AI Interview Preparation Platform that analyzes a user's resume and target job description using Google Gemini AI to generate personalized interview reports, technical and behavioral questions, skill-gap analysis, match score, preparation roadmap, and downloadable PDF reports. The platform features secure authentication, cloud deployment, and a responsive modern user interface.",
+
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB Atlas",
+    "Mongoose",
+    "JWT",
+    "Axios",
+    "Google Gemini AI",
+    "Puppeteer",
+    "Render"
+  ],
+
+  github:
+    "https://github.com/ParthChittalwar/Interview-Intelligence",
+
+  live:
+    "https://interview-intelligence-8l7z.onrender.com/login",
+
+  status: "completed",
+
+  timeline: "August 2026",
+
+  features: [
+    "JWT Authentication using HTTP-only Cookies",
+    "User Registration & Login",
+    "Resume Upload (PDF/DOCX)",
+    "AI-Powered Interview Report Generation",
+    "Personalized Technical Questions",
+    "Behavioral Interview Questions",
+    "Skill Gap Analysis",
+    "AI Match Score",
+    "Personalized Preparation Roadmap",
+    "Interview History Dashboard",
+    "Protected Routes",
+    "Resume PDF Generation",
+    "Responsive Design",
+    "Render Cloud Deployment"
+  ],
+
+  challenges: [
+    "Integrating Google Gemini AI for structured interview generation",
+    "Parsing uploaded resumes and extracting useful information",
+    "Managing authentication securely using HTTP-only cookies",
+    "Generating downloadable PDF reports using Puppeteer",
+    "Handling asynchronous AI requests and long-running operations",
+    "Deploying a full-stack MERN application with MongoDB Atlas on Render"
+  ],
+
+  lessonsLearned: [
+    "Building production-ready MERN applications",
+    "REST API architecture with Express.js",
+    "JWT authentication and secure cookie handling",
+    "MongoDB schema design using Mongoose",
+    "Integrating Large Language Models into web applications",
+    "Generating PDFs using Puppeteer",
+    "Deploying frontend and backend services on Render",
+    "Managing environment variables for production deployments"
+  ]
+},
+  {
+  slug: "sketchboard-pro",
+  number: "03",
   name: "SketchBoard Pro",
   category: "Productivity & Collaboration Platform",
 
@@ -150,12 +222,171 @@ lessonsLearned: [
     "Building production-ready developer tooling with Vite and TypeScript",
     "Creating scalable foundations for future AI-powered features"
   ]
-}
-,
-{
+},
+  {
+  slug: "trustlens",
+  number: "04",
+  name: "TrustLens",
+  category: "Cybersecurity & Digital Trust",
+  problem:
+    "Scam URLs, messages, and job offers can look convincing, while simple warnings often fail to explain why content is risky or what a user should do next.",
+  solution:
+    "Built an explainable digital-trust verification MVP that combines deterministic security heuristics with AI semantic analysis to assess suspicious URLs, messages, job offers, and general text. It returns evidence-backed risk scores, matched indicators, and actionable recommendations instead of an unexplained verdict.",
+  tech: [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Zod",
+    "AI Provider Integration"
+  ],
+  github: "https://github.com/ParthChittalwar/TrustLens-CFBC_H02_Hackthon",
+  live: "",
+  status: "completed",
+  timeline: "Intelligent Systems Hackathon — Aug 2026",
+  features: [
+    "URL, Message, and Job-Offer Analysis",
+    "Deterministic Security Heuristics",
+    "AI-Assisted Semantic Analysis",
+    "Evidence-Backed Risk Scores",
+    "Critical-Risk Score Floor",
+    "Actionable Recommendations",
+    "Analysis History and Risk Filtering",
+    "Rate Limiting and Schema Validation"
+  ],
+  challenges: [
+    "Combining deterministic indicators with AI output safely",
+    "Ensuring AI disagreement cannot suppress critical risk indicators",
+    "Explaining risk scores with matched evidence",
+    "Keeping demo workflows usable without external credentials"
+  ],
+  lessonsLearned: [
+    "Explainable security scoring",
+    "Input validation and safe API error handling",
+    "Layered risk analysis design",
+    "Testing security-critical decision logic"
+  ]
+},
+  {
+  slug: "democratic-bharat-v2",
+  number: "05",
+  name: "Democratic Bharat V2.0",
+  category: "Civic Technology Platform",
+
+  problem:
+    "Many citizens, first-time voters, and rural communities lack access to clear and engaging resources that explain India's electoral process, EVM technology, voting procedures, and democratic participation. Existing information is often fragmented, difficult to understand, or presented in a non-interactive format.",
+
+  solution:
+    "Developed a comprehensive civic education platform designed to simplify India's electoral system through interactive simulations, multilingual support, realistic EVM and VVPAT demonstrations, election workflow visualizations, myth-busting modules, and educational content focused on democratic literacy and voter awareness.",
+
+  tech: [
+    "React",
+    "i18next",
+    "Lucide React",
+    "Framer Motion",
+    "React Router",
+    "Responsive Design",
+  "Accessibility (WCAG)"
+  ],
+
+  github: "https://github.com/ParthChittalwar/Advanced-Indian-EVM-Simulator-",
+
+  live: "https://advanced-indian-evm-simulator.pages.dev/",
+
+  status: "completed",
+
+  timeline: "2026",
+
+  features: [
+    "Interactive EVM Simulation",
+    "VVPAT Demonstration",
+    "Multi-Language Support",
+    "Election Type Explorer",
+    "Polling Booth Simulation",
+    "Voting Process Visualizations",
+    "Myths vs Facts Knowledge Center",
+    "Election Timeline Explorer",
+    "Strong Room Security Simulation",
+    "Voting Awareness Modules",
+    "Democracy Education Content",
+    "Accessibility Features",
+    "Civic Awareness Quiz System",
+    "Mobile Responsive Design"
+  ],
+
+  challenges: [
+    "Simplifying complex electoral concepts for non-technical users",
+    "Designing realistic EVM workflows while maintaining educational clarity",
+    "Creating multilingual content architecture",
+    "Balancing visual engagement with factual accuracy",
+    "Building accessible experiences for diverse audiences",
+    "Presenting politically neutral educational content"
+  ],
+
+  lessonsLearned: [
+    "Educational product design",
+    "Information architecture for complex systems",
+    "Multilingual application structure",
+    "Interactive visualization techniques",
+    "Accessibility-first development",
+    "Civic technology and public awareness design",
+    "Building scalable React and TypeScript applications"
+  ],
+
+},
+  {
+slug: "portfolio-v4",
+number: "06",
+name: "Personal Portfolio Website",
+category: "Frontend Development",
+problem:
+"Needed a modern platform to showcase my skills, projects, certifications, and development journey while maintaining strong performance, accessibility, and responsiveness across devices.",
+solution:
+"Designed and developed a production-ready portfolio using React, TypeScript, Tailwind CSS, Framer Motion, and React Three Fiber, incorporating advanced UI animations, interactive 3D elements, command palette navigation, dynamic content management, responsive design, and modern frontend best practices.",
+tech: [
+"React",
+"TypeScript",
+"Tailwind CSS",
+"Framer Motion",
+"React Three Fiber",
+],
+github: "https://github.com/ParthChittalwar/Portfolio",
+live: "https://portfolio-5yf.pages.dev/",
+status: "completed",
+timeline: "Jun 2026",
+
+features: [
+"Interactive 3D Hero Section",
+"Command Palette (Ctrl + K)",
+"Project Search and Filtering",
+"Dynamic Project Detail Pages",
+"Resume Preview and Download",
+"Dark and Light Theme Support",
+"Responsive Design",
+"SEO Optimization",
+"Accessibility Enhancements"
+],
+
+challenges: [
+"Optimizing Three.js performance for different devices",
+"Creating responsive layouts across screen sizes",
+"Balancing animations with performance",
+"Designing a scalable data-driven content architecture"
+],
+
+lessonsLearned: [
+"Advanced React component architecture",
+"Performance optimization techniques",
+"Modern frontend project organization",
+"Accessibility and SEO best practices",
+"Integrating React Three Fiber into production applications"
+]
+},
+  {
   slug: "novaos-operating-system",
 
-  number: "03",
+  number: "07",
 
   name: "NovaOS Operating System",
 
@@ -225,151 +456,6 @@ lessonsLearned: [
     "Kernel debugging and systems programming best practices",
     "Bootloader and UEFI firmware workflow"
   ]
-},
-  {
-  slug: "democratic-bharat-v2",
-  number: "04",
-  name: "Democratic Bharat V2.0",
-  category: "Civic Technology Platform",
-
-  problem:
-    "Many citizens, first-time voters, and rural communities lack access to clear and engaging resources that explain India's electoral process, EVM technology, voting procedures, and democratic participation. Existing information is often fragmented, difficult to understand, or presented in a non-interactive format.",
-
-  solution:
-    "Developed a comprehensive civic education platform designed to simplify India's electoral system through interactive simulations, multilingual support, realistic EVM and VVPAT demonstrations, election workflow visualizations, myth-busting modules, and educational content focused on democratic literacy and voter awareness.",
-
-  tech: [
-    "React",
-    "i18next",
-    "Lucide React",
-    "Framer Motion",
-    "React Router",
-    "Responsive Design",
-  "Accessibility (WCAG)"
-  ],
-
-  github: "https://github.com/ParthChittalwar/Advanced-Indian-EVM-Simulator-",
-
-  live: "https://advanced-indian-evm-simulator.pages.dev/",
-
-  status: "completed",
-
-  timeline: "2026",
-
-  features: [
-    "Interactive EVM Simulation",
-    "VVPAT Demonstration",
-    "Multi-Language Support",
-    "Election Type Explorer",
-    "Polling Booth Simulation",
-    "Voting Process Visualizations",
-    "Myths vs Facts Knowledge Center",
-    "Election Timeline Explorer",
-    "Strong Room Security Simulation",
-    "Voting Awareness Modules",
-    "Democracy Education Content",
-    "Accessibility Features",
-    "Civic Awareness Quiz System",
-    "Mobile Responsive Design"
-  ],
-
-  challenges: [
-    "Simplifying complex electoral concepts for non-technical users",
-    "Designing realistic EVM workflows while maintaining educational clarity",
-    "Creating multilingual content architecture",
-    "Balancing visual engagement with factual accuracy",
-    "Building accessible experiences for diverse audiences",
-    "Presenting politically neutral educational content"
-  ],
-
-  lessonsLearned: [
-    "Educational product design",
-    "Information architecture for complex systems",
-    "Multilingual application structure",
-    "Interactive visualization techniques",
-    "Accessibility-first development",
-    "Civic technology and public awareness design",
-    "Building scalable React and TypeScript applications"
-  ],
-
-},
-
-{
-  slug: "ai-interview-preparation-platform",
-
-  number: "05",
-
-  name: "AI Interview Preparation Platform",
-
-  category: "Full Stack AI SaaS Platform",
-
-  problem:
-    "Job seekers often struggle to prepare for interviews because generic interview questions fail to match their resume, target role, and required skills. They need a personalized interview preparation system that generates technical questions, behavioral questions, skill-gap analysis, preparation roadmaps, and downloadable interview reports.",
-
-  solution:
-    "Developed a full-stack AI Interview Preparation Platform that analyzes a user's resume and target job description using Google Gemini AI to generate personalized interview reports, technical and behavioral questions, skill-gap analysis, match score, preparation roadmap, and downloadable PDF reports. The platform features secure authentication, cloud deployment, and a responsive modern user interface.",
-
-  tech: [
-    "React",
-    "Vite",
-    "Tailwind CSS",
-    "Node.js",
-    "Express.js",
-    "MongoDB Atlas",
-    "Mongoose",
-    "JWT",
-    "Axios",
-    "Google Gemini AI",
-    "Puppeteer",
-    "Render"
-  ],
-
-  github:
-    "https://github.com/ParthChittalwar/Interview-Intelligence",
-
-  live:
-    "https://interview-intelligence-8l7z.onrender.com/login",
-
-  status: "completed",
-
-  timeline: "August 2026",
-
-  features: [
-    "JWT Authentication using HTTP-only Cookies",
-    "User Registration & Login",
-    "Resume Upload (PDF/DOCX)",
-    "AI-Powered Interview Report Generation",
-    "Personalized Technical Questions",
-    "Behavioral Interview Questions",
-    "Skill Gap Analysis",
-    "AI Match Score",
-    "Personalized Preparation Roadmap",
-    "Interview History Dashboard",
-    "Protected Routes",
-    "Resume PDF Generation",
-    "Responsive Design",
-    "Render Cloud Deployment"
-  ],
-
-  challenges: [
-    "Integrating Google Gemini AI for structured interview generation",
-    "Parsing uploaded resumes and extracting useful information",
-    "Managing authentication securely using HTTP-only cookies",
-    "Generating downloadable PDF reports using Puppeteer",
-    "Handling asynchronous AI requests and long-running operations",
-    "Deploying a full-stack MERN application with MongoDB Atlas on Render"
-  ],
-
-  lessonsLearned: [
-    "Building production-ready MERN applications",
-    "REST API architecture with Express.js",
-    "JWT authentication and secure cookie handling",
-    "MongoDB schema design using Mongoose",
-    "Integrating Large Language Models into web applications",
-    "Generating PDFs using Puppeteer",
-    "Deploying frontend and backend services on Render",
-    "Managing environment variables for production deployments"
-  ]
 }
 
 
@@ -392,3 +478,4 @@ export function getProjectTechFilters(): string[] {
   }
   return Array.from(seen);
 }
+
